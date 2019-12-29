@@ -1,0 +1,26 @@
+>>> time.struct_time(tm_year=2019, tm_mon=11, tm_mday=17, tm_hour=13, tm_min=1, tm_sec=27, tm_wday=6, tm_yday=321, tm_isdst=0)
+The number of stations is: 120
+Day: 2009-01-03T00:00:00.000000Z
+>>> time.struct_time(tm_year=2019, tm_mon=11, tm_mday=17, tm_hour=13, tm_min=4, tm_sec=28, tm_wday=6, tm_yday=321, tm_isdst=0)
+The number of stations is: 120
+Day: 2009-01-03T00:00:00.000000Z
+>>> time.struct_time(tm_year=2019, tm_mon=11, tm_mday=17, tm_hour=13, tm_min=8, tm_sec=55, tm_wday=6, tm_yday=321, tm_isdst=0)
+The number of stations is: 120
+Day: 2009-01-03T00:00:00.000000Z
+>>> time.struct_time(tm_year=2019, tm_mon=11, tm_mday=17, tm_hour=13, tm_min=10, tm_sec=7, tm_wday=6, tm_yday=321, tm_isdst=0)
+The number of stations is: 120
+Day: 2009-01-03T00:00:00.000000Z
+>>> time.struct_time(tm_year=2019, tm_mon=11, tm_mday=17, tm_hour=13, tm_min=16, tm_sec=24, tm_wday=6, tm_yday=321, tm_isdst=0)
+The number of stations is: 120
+Day: 2009-01-03T00:00:00.000000Z
+>>> time.struct_time(tm_year=2019, tm_mon=11, tm_mday=17, tm_hour=13, tm_min=17, tm_sec=53, tm_wday=6, tm_yday=321, tm_isdst=0)
+The number of stations is: 120
+Day: 2009-01-03T00:00:00.000000Z
+>>> time.struct_time(tm_year=2019, tm_mon=11, tm_mday=17, tm_hour=13, tm_min=29, tm_sec=35, tm_wday=6, tm_yday=321, tm_isdst=0)
+The number of stations is: 120
+Day: 2009-01-03T00:00:00.000000Z
+Using time: 1.7320048809051514
+Day: 2009-01-04T00:00:00.000000Z
+Using time: 0.5160403251647949
+Day: 2009-01-05T00:00:00.000000Z
+Using time: 0.11480188369750977
