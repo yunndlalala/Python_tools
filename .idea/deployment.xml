@@ -5,7 +5,8 @@
       <paths name="yunnd@162.105.91.242:22">
         <serverdata>
           <mappings>
-            <mapping deploy="/home/yunnd/Workspace/Python_tools" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/home/yunnd/Project/Python_tools" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/home/yunnd/Project/noise_energy_COVID-19" local="$PROJECT_DIR$/../noise_energy_COVID-19" web="/" />
           </mappings>
         </serverdata>
       </paths>

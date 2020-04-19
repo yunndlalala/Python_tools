@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Python_tools.iml" filepath="$PROJECT_DIR$/.idea/Python_tools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../noise_energy_COVID-19/.idea/noise_energy_COVID-19.iml" filepath="$PROJECT_DIR$/../noise_energy_COVID-19/.idea/noise_energy_COVID-19.iml" />
     </modules>
   </component>
 </project>

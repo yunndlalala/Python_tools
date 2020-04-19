@@ -26,12 +26,9 @@ def _sac_error(out):
 
 
 def cut(
-        data_path,
-        output_path,
-        catalog_file,
-        same_window,
-        win_before,
-        win_after):
+        data_path=None,
+        output_path=None,
+        catalog_file=None):
     """
         input:
         catalog; stream_path; out_path; time window
@@ -60,11 +57,7 @@ def cut(
 
     for ctlg_line in catalog[1:]:
         print('cutting event {}'.format(ctlg_line))
-        if same_window:
-            ot, lat, lon, depth, mag = ctlg_line[:-1].split(',')
-        else:
-            ot, lat, lon, depth, mag, win_before, win_after = ctlg_line[:-1].split(
-                ',')
+        ot, lat, lon, depth, mag, win_before, win_after = ctlg_line[:-1].split(',')
 
         win_before = float(win_before)
         win_after = float(win_after)
@@ -93,8 +86,8 @@ def cut(
         # use sac
         if os.path.exists(start_day_path):
             os.chdir(start_day_path)
-            streams = glob.glob('*')
-            for stream in streams[20:]:
+            streams = sorted(glob.glob('*'))
+            for stream in streams:
                 print(stream)
                 _, net, sta, chn = stream.split('.')
                 fname = '.'.join([net, sta, chn])
